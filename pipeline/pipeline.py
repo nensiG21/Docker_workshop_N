@@ -12,3 +12,5 @@ print(df.head())
 
 df.to_parquet(f"output_{month}.parquet")
 print(f"Running pipeline for month {month}")
+
+
